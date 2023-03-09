@@ -4,7 +4,7 @@
 
 import random
 import os     #MAC SOUND
-import winsound  #WINDOWS SOUND
+#import winsound  #WINDOWS SOUND
 import math
 import time
 
