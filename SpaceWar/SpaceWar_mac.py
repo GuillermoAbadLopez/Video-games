@@ -218,7 +218,7 @@ class Missile(Sprite):
                 and (missile[2].status == "ready")
                 and (missile[3].status == "ready")
             ):
-                os.system("afplay LASER.mp3&")  # MAC
+                os.system("afplay LASER.wav&")  # MAC
                 # Porto el missil del 1000,1000 a la posició del jugador
                 self.goto(player.xcor(), player.ycor())
                 # posso la direcció igual a la del jugador en comptes de la x
